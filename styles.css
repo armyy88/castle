@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url('buah-background.jpg');
+  background-size: cover;
+  padding: 100px 0;
+  text-align: center;
+  color: black;
+}
+
+.cta-button {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.about, .products, .contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.product h3 {
+  margin-top: 0;
+}
+
+.product .order-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
