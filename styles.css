@@ -18,6 +18,11 @@ header nav ul {
   padding: 0;
 }
 
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+
 header nav ul li {
   display: inline;
   margin: 0 10px;
